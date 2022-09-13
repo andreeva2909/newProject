@@ -1,0 +1,447 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 80px;
+    background-color: black;
+    left: 0px;
+    top: 0px; 
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    margin-left: 250px;  
+    left: 4.44%;
+    top: 4%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nav a, .phone {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: gray;
+}
+
+.logo {
+    position: absolute;
+    left: 4.44%;
+    right: 87.22%;
+    top: 3%;
+    bottom: 96.8%;  
+}
+
+.basket {
+    margin-top: -7px;
+    top: 2.28%;
+   
+}
+
+.main {
+    height: 772px;
+    left: 0;
+    padding-top: -30px;
+    background-image: url("src/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    margin-top: 0;
+    position: absolute;
+    height: 320px;
+    left: 58px;
+    top: 152px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.5vw;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.group {
+    position: absolute;
+    width: 716px;
+    height: 884px;
+    left: 690px;
+    top: 110px;   
+    z-index: 1;
+}
+
+.subtitle {
+    position: absolute;
+    width: 672px;
+    left: 64px;
+    top: 520px;
+    padding-right: -5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 25px;
+    color: #000000;
+    z-index: 2;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.h3 {
+    position: absolute;
+    width: 416px;
+    left: 64px;
+    top: 694px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 2.3vw;
+    line-height: 43px;
+    color: #000000;
+    margin-top: -16px;
+}
+
+.subtitleH3 {
+    position: absolute;
+    width: 416px;
+    left: 64px;
+    top: 734px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 21px;
+    color: #000000;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+.sale {
+    position: absolute;
+    width: 100%;
+    height: 926px;
+    left: 0px;
+    top: 850px;
+    background: black;
+}
+
+.h2 {
+    margin-top: 130px;
+    left: 64px;
+    top: 984px;  
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;  
+}
+
+.first {
+    color: #FFFFFF;
+}
+
+.second {
+    color: #FCB500;    
+}
+
+.price {
+    top: 984px; 
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row; 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.firstPrice {
+    font-size: 36px;
+    color: #ADADAD;
+    text-decoration: line-through;
+    margin-right: 32px;
+}
+
+.secondPrice {
+    font-size: 48px;
+    color: white;
+}
+
+.benefits {
+    top: 1184px; 
+    margin-top: 59px;
+    margin-left: 6%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row; 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#anotherBlock {
+    margin-top: 70px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 78px;
+}
+
+.block1 {
+    font-size: 18px;
+    color: white;
+}
+
+.block2 {
+    font-size: 18px;
+    color: #FCB500;
+}
+
+
+
+.benefit {
+    margin-right: 111px;
+}
+
+button {
+    left: 592px;
+    top: 1232px;
+    background: #FCB500;
+    border-radius: 7px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    padding: 16px 32px 16px 32px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 64px;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 140, 0);
+    border-style: none;
+}
+
+@media screen and (max-width: 920px) {
+    .nav {
+        margin-left: 150px;  
+    }
+
+    .nav a, .phone {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .nav a, .phone {
+        font-size: 14px;
+    }
+
+    html { 
+        overflow-x: hidden; 
+    }
+
+    .group {
+        display: none;
+    }
+
+    .subtitle {
+        margin-top: -120px;
+    }
+
+    .h3 {
+        margin-top: -130px;
+    }
+
+    .subtitleH3 {  
+        margin-top: -130px;
+        margin-bottom: 0px;
+    }
+
+    .main {
+        height: 600px;
+    }
+
+    .price {
+        margin-top: 50px;
+    }
+
+    .sale {
+        top: 90%;
+        height: 1650px;
+    }
+
+    .benefits {
+        flex-direction: column; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .benefit {
+        margin-right: 0px;
+        margin-top: 90px;
+    }
+
+    .block {
+        margin-top: 30px;
+    }
+
+    #anotherBlock {
+        margin-top: 30px;
+    }
+} 
+
+
+@media screen and (max-width: 1300px) {
+
+    .group {
+        left: 45%;
+    }
+    
+    html { 
+        overflow-x: hidden; 
+    }
+} 
+
+
+@media screen and (max-width: 800px) {
+    .nav a, .phone {
+        display: none;       
+    }
+
+    .basket {
+        padding-left: 70%;
+    }
+
+    .sale {
+        top: 90%;
+        height: 1650px;
+    }
+
+} 
+
+@media screen and (max-width: 600px) {
+
+    .h2 {
+        font-size: 36px;
+    }
+
+    .firstPrice {
+        font-size: 24px;
+    }
+
+    .secondPrice {
+        font-size: 36px;
+    }
+
+} 
+
+@media screen and (max-width: 880px) {
+    .logo {
+        left: 15px;
+    }
+    
+    .nav {
+        margin-left: 150px;  
+    }
+
+    .mainFlex {
+        display: flex;
+        hyphens: auto;
+        flex-flow: row wrap;       
+    }
+    
+    .h1 {
+        left: 20px;
+        font-size: 64px;
+        bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .subtitle {
+        position: relative;
+        max-width: 600px;
+        left: 0px;
+        margin-left: 22px;
+        flex: auto;
+        font-size: 20px;
+        margin-top: -270px;
+        width: 500px;
+    }
+
+    .h3 {
+        flex: auto;
+        position: relative;
+        margin-top: -250px;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    .subtitleH3 {
+        left: 0px;
+        margin-left: 20px;
+        flex: auto;
+        font-size: 14px;  
+        margin-top: -170px;
+        margin-bottom: 0px;
+    }
+
+    .main {
+        height: 600px;
+    }
+
+    .sale {
+        top: 90%;
+        height: 1750px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .h1 {
+        font-size: 11vw;
+    }
+
+    .subtitleH3 {
+        position: relative;
+        margin-top: -250px;
+    }
+
+    .nootris {
+        width: 400px;
+        height: 100px;
+    }
+
+    .sale {
+        top: 90%;
+        height: 1650px;
+    }
+} 
+
